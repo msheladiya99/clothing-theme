@@ -12,7 +12,7 @@
 <script src="{{ 'tingle.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'theme.js' | asset_url }}"  defer="defer"></script>
 {%- case t -%}
-  {%- when 'collection' and collection.handle -%}
+  {%- when 'collection' -%}
     <script src="{{ 'collection.js' | asset_url }}" defer="defer"></script>
   {%- when 'product' -%}
     <script src="{{ 'main-product.js' | asset_url }}" defer="defer"></script>
